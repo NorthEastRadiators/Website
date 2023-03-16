@@ -1,54 +1,47 @@
 @charset "UTF-8";
 /* CSS Document */
 
-body, html {
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Gidole", Gidole, monospace;
+}
+body {
 	height: 100%;
 	margin: 0;
-}
-
-.bgimg {
- 	background-color: #38b6ff;
-	height: 100%;
+	padding: 0 250px;
+	background-color: #38b6ff;
 	background-position: center;
 	background-size: cover;
-	position: relative;
-	color: white;  
-	font-family: "Gidole", Gidole, monospace;
-	font-size: 25px;
+}
+
+.title{
+	color: white;
+	padding: 100px 0 0;
+	text-align: center;
 }
 
 h1{
-	font-size: 45px;
+	padding: 10px 0;
 }
 
-h3{
-	font-size: 23px;
-}
-
-.text{
-	font-size: 20px;
-}
-
-.topleft {
-	position: absolute;
-	top: 0;
-	left: 16px;
-}
-
-.middle {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+.logo{
 	text-align: center;
+	padding: 90px 0 0;
+}
+
+.logo_div{
+	text-align: center;
+}
+
+.contact{
+	color: white;
+	text-align: center;
+	margin: 60px 0 0;
 }
 
 .email{
 	text-decoration: none;
 	color: white;
-}
-
-hr {
-	margin: auto;
-	width: 40%;
 }
