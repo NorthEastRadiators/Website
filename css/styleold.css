@@ -1,0 +1,901 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin: 0;
+	font-family: Gidole, sans-serif;
+}
+
+
+/* [START] ALL PAGES - HEADER */
+
+header{
+	
+}
+
+.header-main{
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 60px;
+	background-color: #38b6ff;
+
+}
+
+.header-main-section{
+		margin: 0 5%;
+
+}
+
+.logo-main{
+	height: 60px;
+	width: auto;
+	float: left;
+}
+
+.heading-main{
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	padding: 0 0 0 20px;
+}
+
+a:hover{
+  color: #004aad;
+}
+
+.header-links-main{
+	float: right;
+	padding: 18px 0;
+}
+
+.header-responsive{
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 60px;
+	background-color: #38b6ff;
+	display: none;
+}
+
+.logo-responsive-section{
+	text-align: center;
+}
+
+.logo-responsive{
+	height: 60px;
+	width: auto;
+	padding: 0 0 0 45px;
+
+}
+
+.menu-button-responsive{
+	float: right;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #004aad;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+@media (max-width:730px){
+	.header-main{
+		display: none;
+	}
+	
+	.header-responsive{
+		display: block;
+	}
+}
+
+
+/* [END] ALL PAGES - HEADER */
+
+
+
+/* [START] ALL PAGES - ESTIMATES */
+
+.estimates{
+	background-color: #004aad;
+	height: 120px;
+	color: #ffffff;
+}
+
+.estimatesBanner{
+	margin: 0 15%;
+}
+
+.estimatesMessage{
+	font-size: 35px;
+	width: 70%;
+	padding: 40px 0;
+	float: left;
+}
+
+.estimatesContact{
+	float: left;
+	width: 30%;
+	padding: 40px 0 0 0;
+	text-align: right;
+}
+
+.estimatesButton{
+	background-color: #38b6ff;
+	
+}
+
+
+@media (max-width:1300px){
+
+
+	.estimatesBanner{
+		margin: 0 100px;
+	}
+}
+
+@media (max-width:1085px){
+
+	.estimatesMessage{
+		font-size: 28px;
+		padding: 45px 0;
+
+	}
+
+}
+
+@media (max-width:930px){
+
+	.estimates{
+		height: 160px;
+		text-align: center;
+	}
+
+	.estimatesMessage{
+		width: 100%;
+		padding: 30px 0 0 0;
+	}
+
+	.estimatesContact{
+		width: 100%;
+		padding: 20px 0 0 0;
+		text-align: center;
+	}
+
+}
+
+@media (max-width:700px){
+
+	.estimates{
+		height: 200px;
+	}
+
+	.estimatesBanner{
+		margin: 0 180px;
+	}
+
+}
+
+@media (max-width:610px){
+
+	.estimatesBanner{
+		margin: 0 100px;
+	}
+
+}
+
+@media (max-width:450px){
+
+	.estimatesBanner{
+		margin: 0 40px;
+	}
+
+}
+
+ 
+/* [END] ALL PAGES - ESTIMATES */
+
+
+
+/* [START] ALL PAGES - Footer */
+
+.Footer{
+	background-color: #38b6ff;
+	margin: 40px 0 0 0;
+	width: 100%;
+	height: 200px;
+	padding: 40px 0 0 0;
+	color: white;
+}
+
+.Footer-Left{
+	text-align: left;
+	height: auto;
+	float: left;
+	margin: 0 0 0 100px;
+}
+
+.Footer-Right{
+	text-align: right;
+	height: auto;
+	float: right;
+	margin: 0 100px 0 0;
+}
+
+.Footer-Title{
+	padding: 0 0 10px;
+}
+
+.Footer-Contact{
+	padding: 0 0 8px;
+	font-size: 18px;
+	text-decoration: none;
+	color: white;
+}
+
+.Footer-Description{
+	font-size: 18px;
+}
+
+.Footer-Icons{
+	padding: 20px 0 0 0;
+}
+
+.Footer-SocialMedia{
+	width: 50px;
+}
+
+
+@media (max-width:800px){
+	.Footer{
+		margin: 0;
+		height: 350px;
+		padding: 0;
+	}
+
+	.Footer-Left{
+		width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+
+	.Footer-Right{
+		width: 100%;
+		text-align: center;
+		height: auto;
+		float: left;
+		margin: 0 100px 0 0;
+	}
+
+	.Footer-Title{
+		padding: 30px 0 10px;
+	}
+
+	.Footer-Contact{
+		padding: 0 0 8px;
+		font-size: 18px;
+	}
+
+	.Footer-Description{
+		font-size: 18px;
+	}
+
+	.Footer-Icons{
+		padding: 20px 0 0 0;
+	}
+
+	.Footer-SocialMedia{
+		width: 50px;
+	}
+
+}
+
+
+
+/* [END] ALL PAGES - Footer */
+
+
+
+/* [START] ALL PAGES - GENERAL */
+
+.button{
+	height: 45px;
+	width: 170px;
+	border-radius: 10px;
+	border: none;
+	color: #FFFFFF;
+	font-size: 16px;
+}
+
+
+/* [END] ALL PAGES - GENERAL */
+
+
+
+/* [START] HOME - HERO */
+
+
+.home-Hero{
+	height: 80vh;
+	width: 100%;
+	background-image: url("../img/services/radiator.jpeg");
+	color: #004aad;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.home-HeroText{
+	width: auto;
+	height:auto;
+	overflow: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	background-color: rgba(255,255,255, 0.7);
+	border-radius: 20px;
+	padding: 35px 60px;
+}
+ 
+.home-HeroHeading{
+	font-size: 40px;
+}
+
+.home-HeroSubHeading{
+	font-size: 35px;
+}
+
+
+@media (max-width:1050px){
+	.home-HeroText{
+	}
+
+	.home-HeroHeading{
+		font-size: 30px;
+	}
+
+	.home-HeroSubHeading{
+		font-size: 25px;
+	}
+
+}
+
+@media (max-width:900px){
+	.home-HeroText{
+		width: 100%;
+		border-radius: 0;
+		padding: 25px 0;
+	}
+
+}
+
+
+/* [END] HOME - HERO */
+
+
+
+/* [START] HOME - ABOUT */
+
+.home-About{
+	margin: 50px 100px 0;
+	text-align: center;
+}
+
+.home-AboutText{
+	padding: 0 10%;
+	color: #38b6ff;
+	font-size: 20px;
+}
+
+.home-AboutButton{
+	background-color: #004aad;
+	margin: 30px 0;
+}
+
+
+@media (max-width:1000px){
+	.home-About{
+		margin: 50px 50px 0;
+	}
+
+	.home-AboutText{
+		padding: 0;
+		color: #38b6ff;
+		font-size: 20px;
+	}
+
+	.home-AboutButton{
+		background-color: #004aad;
+		margin: 30px 0;
+	}
+
+}
+
+
+
+/* [END] HOME - ABOUT */
+
+
+
+/* [START] ABOUT - TEXT */
+
+.about-section{
+	margin: 50px 100px 0;
+	text-align: center;
+
+}
+
+.about-text{
+	padding: 0 10% 50px;
+	color: #38b6ff;
+	font-size: 20px;
+	
+}
+
+.aboutText{
+	padding: 10px 0;
+}
+
+@media (max-width: 1100px){
+	.about-section{
+		margin: 50px 50px 0;
+	}
+	
+	.about-text{
+		padding: 0 5% 50px;
+	}
+
+}
+
+@media (max-width: 800px){
+	.about-section{
+		margin: 20px 0 0;
+	}
+	
+	.about-text{
+		padding: 0 5% 20px;
+	}
+
+}
+
+
+
+
+/* [END] ABOUT - TEXT */
+
+
+
+/* [START] SERVICES - THUMBNAILS */
+
+.services-thumbnails{
+	width: 100%;
+	height: 1500px;
+	text-align: center;
+	margin: 20px 0;
+}
+
+
+.services-thumbs{
+	height: 400px;
+	width: 42.5%;
+	background-color: black;
+	border-radius: 40px;
+}
+
+.services-thumbsLeft{
+	float: left;
+	margin: 50px 2.5% 50px 5%;
+}
+
+.services-thumbsRight{
+	float: left;
+	margin: 50px 5% 50px 2.5%;
+
+}
+
+.radiators{
+	background-image: url("../img/services/radiator.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.FuelTanks{
+	background-image: url("../img/services/fueltank.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.OilCoolers{
+	background-image: url("../img/services/oilcooler.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.InterCoolers{
+	background-image: url("../img/services/intercooler.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.HeatExchangers{
+	background-image: url("../img/services/heat_exchanger.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.HeatingBatteries{
+	background-image: url("../img/services/heating battery.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.services-details{
+	width: auto;
+	height:auto;
+	overflow: auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+	background-color: rgba(255,255,255, 0.7);
+	border-radius: 20px;
+	padding: 25px 60px;
+	font-size: 28px;
+	color: #004aad;
+}
+
+.servicesButtons{
+	background-color: #38b6ff;
+	margin: 20px 0 0;
+}
+
+
+
+@media (max-width: 1000px){
+	.services-thumbs{
+		height: 300px;
+		width: 90%;
+	}
+
+	.services-thumbsLeft{
+		margin: 20px 5%;
+	}
+
+	.services-thumbsRight{
+		margin: 20px 5%;
+
+	}
+
+	.services-thumbnails{
+		height: 2050px;
+
+		margin: 20px 0;
+	}
+
+	
+}
+
+.thumbnails{
+	width: 100%;
+	margin: 30px 0 0 0;
+}
+
+.thumbImg{
+	width: 100%;
+	height: 300px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.thumb{
+	width: 18.5%;
+	float: left;
+	text-align: center;
+	margin: 0 2%;
+}
+
+h4{
+	color: #6BA65A;
+	font-size: 23px;
+	margin: 15px 10px 25px;
+}
+
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: 1; 
+  padding-top: 80px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+.modalHeading{
+	padding: 20px 0 20px 0;
+	color: #FFFFFF;
+	font-size: 35px;
+	text-align: center;
+	margin: 0 0 10px;
+}
+
+.modal-content {
+  background-color: #38b6ff;
+  margin: auto;
+  padding:20px;
+  width: 80%;
+  height: 400px;;
+}
+
+.modal-text{
+	color: white;
+	font-size: 22px;
+}
+
+.close {
+  color: #FFFFFF;
+  float: right;
+  font-size: 50px;
+  font-weight: bold;
+  padding: 0 20px 0 0;
+}
+
+.close:hover,
+.close:focus {
+  color: #004aad;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ModalLeft{
+	width: 40%;
+	float: left;
+	height: 230px;
+	padding: 0 0 0 3%;
+}
+
+.ModalRight{
+	width: 35%;
+	height: 230px;
+	float: right;
+	padding: 110px 10% 0;
+}
+
+@media (max-width: 850px){
+	.ModalLeft{
+		width: 90%;
+		float: left;
+		height: 300px;
+		text-align: center;
+		padding: 20px 5%;
+	}
+	
+	.modal-text{
+		font-size: 18px;
+	}
+
+
+	.ModalRight{
+		width: 90%;
+		height: 50px;
+		float: right;
+		padding: 0 5% 20px;
+	}
+
+	.modal-content {
+	  height: 500px;
+	}
+	
+}
+
+@media (max-width: 550px){
+	.ModalRight{
+		width: 90%;
+		height: 70px;
+		float: right;
+		padding: 0 5% 20px;
+	}
+
+	.modal-content {
+	  height: 530px;
+	}
+	
+}
+
+
+
+/* [END] SERVICES - THUMBNAILS */
+
+/* [START] CONCTACT - MAIN */
+
+.contact-main{
+	width: 100%;
+	height: 670px;
+}
+
+.contact-left{
+	width: 50%;
+	float: left;
+}
+
+.contact-right{
+	width: 50%;
+	float: right;
+}
+
+.contact-sections{
+	height: auto;
+	width: 80%;
+	float: left;
+	text-align: center;
+	margin: 0 10%;
+}
+
+.contact-icons{
+	width: 70px;
+	height: auto;
+	padding: 30px 0 10px;
+}
+
+.contact-links{
+	color: #004aad;
+	text-decoration: none;
+	font-size: 22px;
+	padding: 0 0 30px;
+}
+
+.contact-form-section{
+	float: right;
+	text-align: right;
+	width: 80%;
+	padding: 30px 10% 30px 0;
+}
+
+.contact-form{
+	border: none; 
+	width: 750px;
+	height: 650px;
+	max-width:100%; 
+	max-height:100vh; 
+	overflow: hidden;
+}
+
+.contact-detail{
+	color: #38b6ff;
+	font-size: 22px;
+}
+
+.contact-text{
+	padding: 130px 0 0;
+	height: auto;
+	width: 80%;
+	float: left;
+	text-align: center;
+	margin: 0 10%;
+
+}
+
+@media (max-width:1100px){
+	.contact-left{
+		width: 100%;
+	}
+
+	.contact-right{
+		width: 100%;
+	}
+	
+	.contact-main{
+		height: 1000px;
+	}
+	
+	.contact-sections{
+		width: 40%;
+		float: left;
+		text-align: center;
+		margin: 0 5%;
+	}
+
+
+	.contact-form-section{
+		text-align: center;
+		width: 80%;
+		padding: 60px 10% 30px 0;
+
+	}
+	
+	.contact-icons-sections{
+		width: 100%;
+		text-align: center;	
+
+		
+	}
+	
+	.contact-text{
+	padding: 30px 0 0;
+
+
+}
+
+
+@media (max-width:800px){
+	.contact-sections{
+		width: 90%;
+		float: left;
+		text-align: center;
+		margin: 0 5%;
+	}
+	
+	.contact-main{
+		height: 1200px;
+	}	
+	
+}
+
+
+@media (max-width:500px){
+	.contact-form-section{
+		width: 100%;
+		padding: 60px 0 30px 0;
+	}
+	
+		.contact-main{
+		height: 1250px;
+	}	
+}
+
+}
