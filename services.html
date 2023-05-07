@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Our Services | North East Radiators</title>
+<link rel="icon" type="image/xicon" href="img/all_pages/Icon.png">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+	
+  <!-- ======= Header ======= -->
+	<header>
+		
+		<div class="header-main">
+			<div class="header-main-section">
+				<a href="index.html"><img src="img/all_pages/Logo.png" alt="Logo" class="logo-main"></a>
+
+				<div class="header-links-main">
+					<a class="heading-main" href="index.html">Home</a>
+					<a class="heading-main" href="about.html">About Us</a>
+					<a class="heading-main" href="services.html">Our Services</a>
+					<a class="heading-main" href="contact.html">Contact Us</a>
+				</div>
+			</div>
+		</div>
+		
+		<div class="header-responsive">
+			<div class="header-response-section">
+				
+				
+				<div class="logo-responsive-section">
+					<img src="img/all_pages/Logo.png" alt="Logo" class="logo-responsive">
+					<span class="menu-button-responsive" style="font-size:30px;cursor:pointer; color: white; padding: 10px 20px 0 0;" onclick="openNav()">&#9776;</span>
+
+				</div>
+				
+
+			</div>
+		
+		</div>
+		
+	</header>
+
+	<div id="mySidenav" class="sidenav">
+	  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+	  <a href="index.html">Home</a>
+	  <a href="about.html">About Us</a>
+	  <a href="services.html">Our Services</a>
+	  <a href="contact.html">Contact Us</a>
+	</div>
+
+	<script>
+		function openNav() {
+		  document.getElementById("mySidenav").style.width = "250px";
+		  document.getElementById("main").style.marginLeft = "250px";
+		}
+
+		function closeNav() {
+		  document.getElementById("mySidenav").style.width = "0";
+		  document.getElementById("main").style.marginLeft= "0";
+		}
+	</script>
+
+<!-- End Header -->	
+	
+	
+	<!-- ======= Hero ======= -->
+	
+	<section class="home-Hero">
+		<div class="home-HeroText">
+			<h1 class="home-HeroHeading" >Our Services</h1>
+		</div>
+	
+	</section>
+	
+	<!-- End Hero -->
+	
+	<section class="services-thumbnails">
+	
+		<div id="button1" class="services-thumbs services-thumbsLeft radiators">
+			<div class="services-details">Radiators
+			<button class="button servicesButtons">Learn More</button>
+			</div>
+		</div>
+		
+		<div id="Modal1" class="modal" >
+				  <div class="modal-content">
+					<span class="close close1">&times;</span>
+					  <h2 class="modalHeading">Radiators</h2>
+					  
+					  <div class="ModalRight">
+							<p class="modal-text">We test, repair, recore and supply radiators radiators for cars, plant, agricultural and industrial.</p>
+					  </div>
+						<div class="ModalLeft">
+						  <img alt="Radiator" class="thumbImg" src="img/services/radiator.jpeg">
+					  </div>
+			</div>
+		</div>
+		
+		<script>
+				var modal_1 = document.getElementById("Modal1");
+				var btn1 = document.getElementById("button1");
+				var span = document.getElementsByClassName("close1")[0];
+				btn1.onclick = function() {
+				  modal_1.style.display = "block";
+				}
+				span.onclick = function() {
+				  modal_1.style.display = "none";
+				}
+		</script>
+		
+			
+		<div id="button2" class="services-thumbs services-thumbsRight OilCoolers">
+			<div class="services-details">Oil Coolers
+			<button class="button servicesButtons">Learn More</button>
+			</div>
+		</div>
+		
+		<div id="Modal2" class="modal" >
+				  <div class="modal-content">
+					<span class="close close2">&times;</span>
+					  <h2 class="modalHeading">Oil Coolers</h2>
+					  <div class="ModalRight">
+							<p class="modal-text">We test, repair, recore and supply radiators radiators for cars, plant, agricultural and industrial.</p>
+					  </div>
+					  <div class="ModalLeft">
+						  <img alt="Radiator" class="thumbImg" src="img/services/oilcooler.jpeg">
+					  </div>
+
+			</div>
+		</div>
+		
+		<script>
+				var modal_2 = document.getElementById("Modal2");
+				var btn1 = document.getElementById("button2");
+				var span = document.getElementsByClassName("close2")[0];
+				btn1.onclick = function() {
+				  modal_2.style.display = "block";
+				}
+				span.onclick = function() {
+				  modal_2.style.display = "none";
+				}
+		</script>		
+		
+		
+		<div id="button3" class="services-thumbs services-thumbsLeft InterCoolers">
+			<div class="services-details">Intercoolers
+			<button class="button servicesButtons">Learn More</button>
+			</div>
+		</div>
+		
+		<div id="Modal3" class="modal" >
+				  <div class="modal-content">
+					<span class="close close3">&times;</span>
+					  <h2 class="modalHeading">Intercoolers</h2>
+					  <div class="ModalRight">
+							<p class="modal-text">We test, repair, recore and supply radiators radiators for cars, plant, agricultural and industrial.</p>
+					  </div>
+					  <div class="ModalLeft">
+						  <img alt="Radiator" class="thumbImg" src="img/services/intercooler.jpg">
+					  </div>
+
+			</div>
+		</div>
+		
+		<script>
+				var modal_3 = document.getElementById("Modal3");
+				var btn1 = document.getElementById("button3");
+				var span = document.getElementsByClassName("close3")[0];
+				btn1.onclick = function() {
+				  modal_3.style.display = "block";
+				}
+				span.onclick = function() {
+				  modal_3.style.display = "none";
+				}
+		</script>	
+		
+		
+		<div id="button4" class="services-thumbs services-thumbsRight HeatExchangers">
+			<div class="services-details">Heat Exchangers
+			<button class="button servicesButtons">Learn More</button>		
+			</div>
+		</div>
+		
+		<div id="Modal4" class="modal" >
+				  <div class="modal-content">
+					<span class="close close4">&times;</span>
+					  <h2 class="modalHeading">Heat Exchangers</h2>
+					  <div class="ModalRight">
+							<p class="modal-text">We test, repair, recore and supply radiators radiators for cars, plant, agricultural and industrial.</p>
+					  </div>
+					  <div class="ModalLeft">
+						  <img alt="Radiator" class="thumbImg" src="img/services/heat_exchanger.jpeg">
+					  </div>
+
+			</div>
+		</div>
+		
+		<script>
+				var modal_4 = document.getElementById("Modal4");
+				var btn1 = document.getElementById("button4");
+				var span = document.getElementsByClassName("close4")[0];
+				btn1.onclick = function() {
+				  modal_4.style.display = "block";
+				}
+				span.onclick = function() {
+				  modal_4.style.display = "none";
+				}
+		</script>	
+		
+		
+		<div id="button5" class="services-thumbs services-thumbsLeft HeatingBatteries">
+			<div class="services-details">Heating Batteries
+			<button class="button servicesButtons">Learn More</button>		
+			</div>
+		</div>
+		
+		<div id="Modal5" class="modal" >
+				  <div class="modal-content">
+					<span class="close close5">&times;</span>
+					  <h2 class="modalHeading">Heating Batteries</h2>
+					  <div class="ModalRight">
+							<p class="modal-text">We test, repair, recore and supply radiators radiators for cars, plant, agricultural and industrial.</p>
+					  </div>
+					  <div class="ModalLeft">
+						  <img alt="Radiator" class="thumbImg" src="img/services/heating battery.jpeg">
+					  </div>
+
+			</div>
+		</div>
+		
+		<script>
+				var modal_5 = document.getElementById("Modal5");
+				var btn1 = document.getElementById("button5");
+				var span = document.getElementsByClassName("close5")[0];
+				btn1.onclick = function() {
+				  modal_5.style.display = "block";
+				}
+				span.onclick = function() {
+				  modal_5.style.display = "none";
+				}
+		</script>	
+
+		
+		
+		<div id="button6" class="services-thumbs services-thumbsRight FuelTanks">
+			<div class="services-details">Fuel Tanks
+			<button class="button servicesButtons">Learn More</button>
+			</div>
+		</div>
+		
+		<div id="Modal6" class="modal" >
+				  <div class="modal-content">
+					<span class="close close6">&times;</span>
+					  <h2 class="modalHeading">Fuel Tanks</h2>
+					  <div class="ModalRight">
+							<p class="modal-text">We test, repair, recore and supply radiators radiators for cars, plant, agricultural and industrial.</p>
+					  </div>
+					  <div class="ModalLeft">
+						  <img alt="Radiator" class="thumbImg" src="img/services/fueltank.jpeg">
+					  </div>
+
+			</div>
+		</div>
+		
+		<script>
+				var modal_6 = document.getElementById("Modal6");
+				var btn1 = document.getElementById("button6");
+				var span = document.getElementsByClassName("close6")[0];
+				btn1.onclick = function() {
+				  modal_6.style.display = "block";
+				}
+				span.onclick = function() {
+				  modal_6.style.display = "none";
+				}
+		</script>	
+		
+	
+	</section>
+	
+	<section class="estimates">
+		<div class="estimatesBanner">
+			<div class="estimatesMessageContainer">
+				<h1 class="estimatesMessage">Get in touch today for a free estimate</h1>
+			</div>
+			
+			<div class="estimatesContact">
+				<a href="contact.html"><button class="button estimatesButton">Free Estimate</button></a>
+				
+			</div>
+		</div>
+		
+	</section>
+	
+	<section class="Footer">
+		<div class="Footer-Left">
+			<h1 class="Footer-Title">Contact Us</h1>
+			<p class="Footer-Contact">Telephone: 07391 574612</p>
+			<p class="Footer-Contact">Email: Info@NorthEastRadiators.co.uk</p>
+		</div>
+		
+		<div class="Footer-Right">
+			<h1 class="Footer-Title">Social Media</h1>
+			<p class="Footer-Description">Check out our social media for</p>
+			<p class="Footer-Description">the latest news and updates</p>
+			
+			<div class="Footer-Icons">
+				<a href="https://www.facebook.com/profile.php?id=100091940859926"><img src="img/all_pages/Facebook.png" class="Footer-SocialMedia" alt="Facebook Icon"></a>
+				<a href="https://www.linkedin.com/company/north-east-radiators/"><img src="img/all_pages/Linkedin.png" class="Footer-SocialMedia" alt="Linkedin Icon"></a>
+			</div>
+		</div>
+	</section>
+	
+	
+	
+</body>
+	
+</html>
