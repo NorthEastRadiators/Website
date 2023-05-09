@@ -156,9 +156,12 @@ a:hover{
 
 .estimatesButton{
 	background-color: #38b6ff;
-	
 }
 
+.estimatesButton:hover{
+	background-color: #FFFFFF;
+	color: #004aad;
+}
 
 @media (max-width:1300px){
 
@@ -429,6 +432,10 @@ a:hover{
 	margin: 30px 0;
 }
 
+.home-AboutButton:hover{
+	background-color: #38b6ff;
+}
+
 
 @media (max-width:1000px){
 	.home-About{
@@ -437,14 +444,8 @@ a:hover{
 
 	.home-AboutText{
 		padding: 0;
-		color: #38b6ff;
-		font-size: 20px;
 	}
 
-	.home-AboutButton{
-		background-color: #004aad;
-		margin: 30px 0;
-	}
 
 }
 
