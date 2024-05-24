@@ -783,7 +783,7 @@ h4{
 
 .contact-main{
 	width: 100%;
-	height: 600px;
+	height: 670px;
 }
 
 .contact-left{
@@ -819,62 +819,15 @@ h4{
 
 .contact-form-section{
 	float: right;
-	text-align: left;
-	width: 100%;
-	padding: 110px 5% 30px 0;
-}
-
-.contact-temp{
+	text-align: right;
 	width: 80%;
-	margin: 10px 10%;
-	padding: 12px 10px;
-	background-color: #38b6ff;
-	border-width: 0;
-	border-radius: 10px;
-	color: white;
-	font-size: 16px;
-	outline: none;
-}
-
-::placeholder {
-  color: white;
-  font-size: 16px;
-  opacity: 1; 
-}
-
-.contact-form-container{
-	text-align: center;
-}
-
-.contact-message{
-	width: 80%;
-	height: 100px;
-	border-width: 0;
-	background-color: #38b6ff;
-	border-radius: 10px;
-	padding: 12px 10px;
-	margin: 10px 10%;
-	color: white;
-	font-size: 16px;
-	outline: none;
-}
-
-.contact-message-text{
-	color: #004aad;
-	font-size: 25px;
-	margin: 10px 10%;
-	text-align: left;
-}
-
-.contact-button{
-	margin: 10px 0 10px 5%;
-	text-align: center;
+	padding: 30px 10% 30px 0;
 }
 
 .contact-form{
 	border: none; 
 	width: 750px;
-	height: 600px;
+	height: 650px;
 	max-width:100%; 
 	max-height:100vh; 
 	overflow: hidden;
@@ -886,7 +839,7 @@ h4{
 }
 
 .contact-text{
-	padding: 100px 0 0;
+	padding: 130px 0 0;
 	height: auto;
 	width: 80%;
 	float: left;
@@ -905,7 +858,7 @@ h4{
 	}
 	
 	.contact-main{
-		height: 700px;
+		height: 1000px;
 	}
 	
 	.contact-sections{
@@ -936,8 +889,7 @@ h4{
 
 }
 
-}
-	
+
 @media (max-width:800px){
 	.contact-sections{
 		width: 90%;
@@ -947,7 +899,7 @@ h4{
 	}
 	
 	.contact-main{
-		height: 950px;
+		height: 1200px;
 	}	
 	
 }
@@ -959,53 +911,9 @@ h4{
 		padding: 60px 0 30px 0;
 	}
 	
-	.contact-main{
-		height: 1050px;
+		.contact-main{
+		height: 1250px;
 	}	
-
-	.contact-temp{
-		margin: 10px 0%;
-	}
-
-	.contact-message{
-		margin: 10px 0%;
-	}
-	
-
 }
 
-
-
-
-
-
-
-/* [START] Success */
-
-.success{
-	width: 100%;
-	height: 80vh;
 }
-
-
-.success-main{
-	width: 100%;
-	text-align: center;
-	margin: 150px 0 0;
-}
-
-.success-title{
-	padding: 20px;
-	color: #004aad;
-	font-size: 35px;
-}
-
-.success-message{
-	color: #38b6ff;
-	font-size: 23px;
-}
-
-
-
-
-
